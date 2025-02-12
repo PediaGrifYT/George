@@ -216,7 +216,7 @@ class MainActivity : ComponentActivity() {
                 Spacer(modifier = Modifier.width(10.dp))
                 Button(
                     onClick = {
-                        result = num1.toInt() / num2.toInt()
+                        result = num1.toInt() % num2.toInt()
                     }
                 ) {
                     Text(text = "Divide")
